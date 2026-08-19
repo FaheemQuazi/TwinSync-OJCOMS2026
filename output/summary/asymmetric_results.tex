@@ -1,0 +1,21 @@
+% Asymmetric Geographic Results Table
+% For IEEE two-column format
+% Include with: \input{output/summary/asymmetric_results.tex}
+
+\begin{figure}[!t]
+\centering
+\footnotesize
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Scheduler} & \textbf{TT} & \textbf{RC} & \textbf{BE} & \textbf{Fairness} \\
+& \textbf{Miss (\%)} & \textbf{Miss (\%)} & \textbf{Miss (\%)} & \textbf{Index} \\
+\midrule
+TwinSync & 0.0 & 0.0 & 95.5 & 0.987 \\
+FIFO & 80.1 & 57.1 & 0.0 & 0.991 \\
+Round Robin & 42.8 & 43.2 & 95.8 & 0.949 \\
+\bottomrule
+\end{tabular}
+\caption{Asymmetric Geographic Performance Metrics}
+\label{fig:asymmetric_results}
+\vspace{-0.3cm}
+\end{figure}

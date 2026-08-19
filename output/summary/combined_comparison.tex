@@ -1,0 +1,21 @@
+% Combined TT Miss Rate Comparison
+% For IEEE two-column format
+% Include with: \input{output/summary/combined_comparison.tex}
+
+\begin{figure}[!t]
+\centering
+\footnotesize
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Scheduler} & \textbf{Balanced} & \textbf{Asymmetric} & \textbf{Artemis} \\
+& \textbf{TT Miss (\%)} & \textbf{TT Miss (\%)} & \textbf{TT Miss (\%)} \\
+\midrule
+TwinSync & 0.0 & 0.0 & 0.0 \\
+FIFO & 98.7 & 80.1 & 89.3 \\
+Round Robin & 44.6 & 42.8 & 81.2 \\
+\bottomrule
+\end{tabular}
+\caption{Critical TT Traffic Miss Rates Across Scenarios}
+\label{fig:tt_comparison}
+\vspace{-0.3cm}
+\end{figure}

@@ -1,0 +1,20 @@
+# Claude Code project files - must never be committed to this public release
+.claude/
+CLAUDE.md
+.claude_session*
+session_cache*.json
+
+# Internal/confidential notes - not for public release
+limit_breaking_experiment_plan.md
+
+# Packaging artifacts from the sim/ working copy
+make_supplementary_zip.sh
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS cruft
+.DS_Store

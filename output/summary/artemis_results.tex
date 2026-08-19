@@ -1,0 +1,21 @@
+% Artemis-like Congestion Results Table
+% For IEEE two-column format
+% Include with: \input{output/summary/artemis_results.tex}
+
+\begin{figure}[!t]
+\centering
+\footnotesize
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Scheduler} & \textbf{TT} & \textbf{RC} & \textbf{BE} & \textbf{Fairness} \\
+& \textbf{Miss (\%)} & \textbf{Miss (\%)} & \textbf{Miss (\%)} & \textbf{Index} \\
+\midrule
+TwinSync & 0.0 & 0.0 & 65.4 & 0.973 \\
+FIFO & 89.3 & 54.2 & 0.0 & 0.994 \\
+Round Robin & 81.2 & 77.3 & 92.7 & 0.934 \\
+\bottomrule
+\end{tabular}
+\caption{Artemis-like Congestion Performance Metrics}
+\label{fig:artemis_results}
+\vspace{-0.3cm}
+\end{figure}

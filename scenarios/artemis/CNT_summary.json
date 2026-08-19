@@ -1,0 +1,18 @@
+{
+  "sim_length": 500,
+  "time_step": 1.0,
+  "num_satellites": 25,
+  "num_missions": 6,
+  "config": {
+    "num_earth_optical": 3,
+    "num_earth_radio": 4,
+    "num_moon_radio": 4,
+    "num_ground_stations": 8,
+    "link_capacities": {
+      "1": 2.0,
+      "2": 3.0,
+      "3": 5.0
+    },
+    "propagation_speed": 300000.0
+  }
+}

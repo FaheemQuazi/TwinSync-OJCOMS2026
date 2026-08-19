@@ -1,0 +1,82 @@
+{
+  "scenario_name": "Artemis-like Congestion",
+  "description": "6 missions competing for limited bandwidth",
+  "total_capacity": 10.0,
+  "expected_demand": 45.0,
+  "missions": [
+    {
+      "name": "Artemis_Base",
+      "assets": [
+        "Habitat"
+      ],
+      "traffic_rates": {
+        "TT": 5.0,
+        "RC": 2.0,
+        "BE": 1.0
+      },
+      "profile": "TT-heavy (habitat life support)"
+    },
+    {
+      "name": "Artemis_Rover1",
+      "assets": [
+        "Explorer1"
+      ],
+      "traffic_rates": {
+        "TT": 2.0,
+        "RC": 2.0,
+        "BE": 2.0
+      },
+      "profile": "Balanced"
+    },
+    {
+      "name": "Artemis_Rover2",
+      "assets": [
+        "Explorer2"
+      ],
+      "traffic_rates": {
+        "TT": 2.0,
+        "RC": 2.0,
+        "BE": 2.0
+      },
+      "profile": "Balanced"
+    },
+    {
+      "name": "CLPS_Lander1",
+      "assets": [
+        "Science1"
+      ],
+      "traffic_rates": {
+        "TT": 0.5,
+        "RC": 1.0,
+        "BE": 4.0
+      },
+      "profile": "BE-heavy (science data)"
+    },
+    {
+      "name": "CLPS_Lander2",
+      "assets": [
+        "Science2"
+      ],
+      "traffic_rates": {
+        "TT": 0.5,
+        "RC": 1.0,
+        "BE": 4.0
+      },
+      "profile": "BE-heavy (science data)"
+    },
+    {
+      "name": "ESA_Science",
+      "assets": [
+        "Monitor"
+      ],
+      "traffic_rates": {
+        "TT": 1.0,
+        "RC": 5.0,
+        "BE": 2.0
+      },
+      "profile": "RC-heavy (monitoring data)"
+    }
+  ],
+  "num_satellites": 25,
+  "num_routes": 16010
+}

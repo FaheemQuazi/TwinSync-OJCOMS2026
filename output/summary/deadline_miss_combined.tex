@@ -1,0 +1,23 @@
+% Combined Deadline Miss Rates Table
+% For IEEE two-column format
+% Include with: \input{output/summary/deadline_miss_combined.tex}
+
+\begin{figure}[!t]
+\centering
+\footnotesize
+\caption{Deadline Miss Rates and Network Utilization Across All Scenarios}
+\label{fig:deadline_miss_combined}
+\vspace{0.1cm}
+\begin{tabular}{@{}l|cccc|cccc|cccc@{}}
+\toprule
+& \multicolumn{4}{c|}{\textbf{Balanced}} & \multicolumn{4}{c|}{\textbf{Asymmetric}} & \multicolumn{4}{c}{\textbf{Artemis}} \\
+\textbf{Scheduler} & TT & RC & BE & Util & TT & RC & BE & Util & TT & RC & BE & Util \\
+& (\%) & (\%) & (\%) & (\%) & (\%) & (\%) & (\%) & (\%) & (\%) & (\%) & (\%) & (\%) \\
+\midrule
+TwinSync & \textbf{0.0} & 35.2 & 95.8 & 88.1 & \textbf{0.0} & 0.0 & 95.5 & 66.1 & \textbf{0.0} & 0.0 & 65.4 & 71.1 \\
+FIFO & 98.7 & 96.4 & 24.6 & 75.0 & 80.1 & 57.1 & 0.0 & 78.1 & 89.3 & 54.2 & 0.0 & 82.4 \\
+Round Robin & 44.6 & 68.0 & 96.1 & 44.0 & 42.8 & 43.2 & 95.8 & 37.3 & 81.2 & 77.3 & 92.7 & 12.3 \\
+\bottomrule
+\end{tabular}
+\vspace{-0.3cm}
+\end{figure}

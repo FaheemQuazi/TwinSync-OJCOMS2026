@@ -1,0 +1,21 @@
+% Average Performance Summary
+% For IEEE two-column format
+% Include with: \input{output/summary/average_summary.tex}
+
+\begin{figure}[!t]
+\centering
+\footnotesize
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Scheduler} & \textbf{Avg TT} & \textbf{Avg RC} & \textbf{Avg BE} & \textbf{Avg} \\
+& \textbf{Miss (\%)} & \textbf{Miss (\%)} & \textbf{Miss (\%)} & \textbf{Fairness} \\
+\midrule
+TwinSync & 0.0 & 11.7 & 85.5 & 0.987 \\
+FIFO & 89.4 & 69.2 & 8.2 & 0.995 \\
+Round Robin & 56.2 & 62.8 & 94.9 & 0.960 \\
+\bottomrule
+\end{tabular}
+\caption{Average Performance Metrics Across All Scenarios}
+\label{fig:average_summary}
+\vspace{-0.3cm}
+\end{figure}

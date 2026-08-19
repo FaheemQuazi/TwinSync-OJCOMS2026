@@ -1,0 +1,21 @@
+% Balanced Dual-Mission Results Table
+% For IEEE two-column format
+% Include with: \input{output/summary/balanced_results.tex}
+
+\begin{figure}[!t]
+\centering
+\footnotesize
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Scheduler} & \textbf{TT} & \textbf{RC} & \textbf{BE} & \textbf{Fairness} \\
+& \textbf{Miss (\%)} & \textbf{Miss (\%)} & \textbf{Miss (\%)} & \textbf{Index} \\
+\midrule
+TwinSync & 0.0 & 35.2 & 95.8 & 1.000 \\
+FIFO & 98.7 & 96.4 & 24.6 & 1.000 \\
+Round Robin & 44.6 & 68.0 & 96.1 & 0.998 \\
+\bottomrule
+\end{tabular}
+\caption{Balanced Dual-Mission Performance Metrics}
+\label{fig:balanced_results}
+\vspace{-0.3cm}
+\end{figure}

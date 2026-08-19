@@ -1,0 +1,74 @@
+{
+  "scenario_name": "Scale Test K=6",
+  "description": "6 missions for scalability testing",
+  "total_capacity": 15.290000000000001,
+  "expected_demand": 36.0,
+  "missions": [
+    {
+      "name": "Mission_0",
+      "assets": [
+        "Asset_Mission_0"
+      ],
+      "traffic_rates": {
+        "TT": 1.5,
+        "RC": 2.0,
+        "BE": 1.5
+      }
+    },
+    {
+      "name": "Mission_1",
+      "assets": [
+        "Asset_Mission_1"
+      ],
+      "traffic_rates": {
+        "TT": 1.5,
+        "RC": 2.0,
+        "BE": 1.5
+      }
+    },
+    {
+      "name": "Mission_2",
+      "assets": [
+        "Asset_Mission_2"
+      ],
+      "traffic_rates": {
+        "TT": 1.5,
+        "RC": 2.0,
+        "BE": 1.5
+      }
+    },
+    {
+      "name": "Mission_3",
+      "assets": [
+        "Asset_Mission_3"
+      ],
+      "traffic_rates": {
+        "TT": 1.5,
+        "RC": 2.0,
+        "BE": 1.5
+      }
+    },
+    {
+      "name": "Mission_4",
+      "assets": [
+        "Asset_Mission_4"
+      ],
+      "traffic_rates": {
+        "TT": 1.5,
+        "RC": 2.0,
+        "BE": 1.5
+      }
+    },
+    {
+      "name": "Mission_5",
+      "assets": [
+        "Asset_Mission_5"
+      ],
+      "traffic_rates": {
+        "TT": 1.5,
+        "RC": 2.0,
+        "BE": 1.5
+      }
+    }
+  ]
+}

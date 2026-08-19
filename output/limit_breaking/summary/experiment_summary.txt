@@ -1,0 +1,17 @@
+Limit-Breaking Experiment Summary
+==================================================
+Total runs: 33264
+  Experiment A: 27000
+  Experiment B: 1890
+  Experiment C: 4320
+  Experiment D: 54
+
+Experiment A Highlights:
+  TwinSync: 100.0% of configs with zero TT misses
+  FIFO: 1.7% of configs with zero TT misses
+  RoundRobin: 0.0% of configs with zero TT misses
+
+Experiment C Highlights:
+  TwinSync: pristine TT miss=0.0%, worst=5.8%
+  FIFO: pristine TT miss=44.9%, worst=99.2%
+  RoundRobin: pristine TT miss=55.3%, worst=83.0%

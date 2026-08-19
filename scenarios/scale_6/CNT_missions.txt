@@ -1,0 +1,35 @@
+# MISSION: MD[Mission_0,3.4100000000000006]
+# ASSET[M_Mission_0_A0,Rover,M_Mission_0]
+QUEUE[M_Mission_0_A0,0,3,9,0.2,3.0]
+QUEUE[M_Mission_0_A0,1,2,5,1.0,1.0]
+QUEUE[M_Mission_0_A0,2,1,2,5.0,0.3]
+# END_MISSION
+# MISSION: MD[Mission_1,1.6500000000000001]
+# ASSET[M_Mission_1_A0,LifeSupport,M_Mission_1]
+QUEUE[M_Mission_1_A0,0,3,10,0.1,5.0]
+QUEUE[M_Mission_1_A0,1,2,8,0.5,2.0]
+# END_MISSION
+# MISSION: MD[Mission_2,3.4100000000000006]
+# ASSET[M_Mission_2_A0,Rover,M_Mission_2]
+QUEUE[M_Mission_2_A0,0,3,9,0.2,3.0]
+QUEUE[M_Mission_2_A0,1,2,5,1.0,1.0]
+QUEUE[M_Mission_2_A0,2,1,2,5.0,0.3]
+# END_MISSION
+# MISSION: MD[Mission_3,3.4100000000000006]
+# ASSET[M_Mission_3_A0,Rover,M_Mission_3]
+QUEUE[M_Mission_3_A0,0,3,9,0.2,3.0]
+QUEUE[M_Mission_3_A0,1,2,5,1.0,1.0]
+QUEUE[M_Mission_3_A0,2,1,2,5.0,0.3]
+# END_MISSION
+# MISSION: MD[Mission_4,3.4100000000000006]
+# ASSET[M_Mission_4_A0,Rover,M_Mission_4]
+QUEUE[M_Mission_4_A0,0,3,9,0.2,3.0]
+QUEUE[M_Mission_4_A0,1,2,5,1.0,1.0]
+QUEUE[M_Mission_4_A0,2,1,2,5.0,0.3]
+# END_MISSION
+# MISSION: MD[Mission_5,3.4100000000000006]
+# ASSET[M_Mission_5_A0,Rover,M_Mission_5]
+QUEUE[M_Mission_5_A0,0,3,9,0.2,3.0]
+QUEUE[M_Mission_5_A0,1,2,5,1.0,1.0]
+QUEUE[M_Mission_5_A0,2,1,2,5.0,0.3]
+# END_MISSION

@@ -1,0 +1,10 @@
+# MISSION: MD[Shackleton_Base,1.6500000000000001]
+# ASSET[M_Shackleton_Base_A0,LifeSupport,M_Shackleton_Base]
+QUEUE[M_Shackleton_Base_A0,0,3,10,0.1,5.0]
+QUEUE[M_Shackleton_Base_A0,1,2,8,0.5,2.0]
+# END_MISSION
+# MISSION: MD[Farside_Observatory,1.6500000000000001]
+# ASSET[M_Farside_Observatory_A0,LifeSupport,M_Farside_Observatory]
+QUEUE[M_Farside_Observatory_A0,0,3,10,0.1,5.0]
+QUEUE[M_Farside_Observatory_A0,1,2,8,0.5,2.0]
+# END_MISSION

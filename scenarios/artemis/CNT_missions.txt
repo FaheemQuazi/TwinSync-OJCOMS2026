@@ -1,0 +1,33 @@
+# MISSION: MD[Artemis_Base,1.6500000000000001]
+# ASSET[M_Artemis_Base_A0,LifeSupport,M_Artemis_Base]
+QUEUE[M_Artemis_Base_A0,0,3,10,0.1,5.0]
+QUEUE[M_Artemis_Base_A0,1,2,8,0.5,2.0]
+# END_MISSION
+# MISSION: MD[Artemis_Rover1,7.700000000000001]
+# ASSET[M_Artemis_Rover1_A0,ScienceInstrument,M_Artemis_Rover1]
+QUEUE[M_Artemis_Rover1_A0,0,2,6,2.0,1.0]
+QUEUE[M_Artemis_Rover1_A0,1,1,4,10.0,0.5]
+# END_MISSION
+# MISSION: MD[Artemis_Rover2,3.4100000000000006]
+# ASSET[M_Artemis_Rover2_A0,Rover,M_Artemis_Rover2]
+QUEUE[M_Artemis_Rover2_A0,0,3,9,0.2,3.0]
+QUEUE[M_Artemis_Rover2_A0,1,2,5,1.0,1.0]
+QUEUE[M_Artemis_Rover2_A0,2,1,2,5.0,0.3]
+# END_MISSION
+# MISSION: MD[CLPS_Lander1,3.4100000000000006]
+# ASSET[M_CLPS_Lander1_A0,Rover,M_CLPS_Lander1]
+QUEUE[M_CLPS_Lander1_A0,0,3,9,0.2,3.0]
+QUEUE[M_CLPS_Lander1_A0,1,2,5,1.0,1.0]
+QUEUE[M_CLPS_Lander1_A0,2,1,2,5.0,0.3]
+# END_MISSION
+# MISSION: MD[CLPS_Lander2,3.4100000000000006]
+# ASSET[M_CLPS_Lander2_A0,Rover,M_CLPS_Lander2]
+QUEUE[M_CLPS_Lander2_A0,0,3,9,0.2,3.0]
+QUEUE[M_CLPS_Lander2_A0,1,2,5,1.0,1.0]
+QUEUE[M_CLPS_Lander2_A0,2,1,2,5.0,0.3]
+# END_MISSION
+# MISSION: MD[ESA_Science,1.6500000000000001]
+# ASSET[M_ESA_Science_A0,LifeSupport,M_ESA_Science]
+QUEUE[M_ESA_Science_A0,0,3,10,0.1,5.0]
+QUEUE[M_ESA_Science_A0,1,2,8,0.5,2.0]
+# END_MISSION

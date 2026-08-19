@@ -1,0 +1,34 @@
+{
+  "scenario_name": "Balanced Dual-Mission",
+  "description": "2 identical missions with equal traffic profiles",
+  "total_capacity": 4.0,
+  "expected_demand": 13.0,
+  "missions": [
+    {
+      "name": "Apollo_Redux",
+      "assets": [
+        "Rover_A",
+        "Lander_A"
+      ],
+      "traffic_rates": {
+        "TT": 1.5,
+        "RC": 3.0,
+        "BE": 2.0
+      }
+    },
+    {
+      "name": "Chang_E_Next",
+      "assets": [
+        "Rover_C",
+        "Lander_C"
+      ],
+      "traffic_rates": {
+        "TT": 1.5,
+        "RC": 3.0,
+        "BE": 2.0
+      }
+    }
+  ],
+  "num_satellites": 15,
+  "num_routes": 508
+}
