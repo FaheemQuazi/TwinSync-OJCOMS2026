@@ -1,4 +1,6 @@
-# Setup and Usage
+# OJCOMS-06622-2026 : TwinSync
+
+_Status: Accepted_
 
 Simulation code and results for **TwinSync**, a mission-aware synchronization scheduler for
 digital twins over dynamic cislunar networks. This directory contains the scheduler
